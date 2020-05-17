@@ -1,0 +1,78 @@
+https://github.com/vimleshtech
+===============================
+
+-> R code can saved with .r/.R extension 
+-> Auto memory allocation
+-> ''  or ""  : character/alpha numeric
+-> #   : comment
+-> <-   or  =  : assignment operator
+-> ctrl+enter  : to execute selected or entire code
+-> function:
+	print()
+	readline()
+	is.integer(value)  	:return boolean value 
+	is.charater(val)
+	is.numeric(val)
+	is.boolean()
+
+	as.integer(val)		: convert string/other type to integer
+	as.charater(val)
+
+-> declaration of variable:
+		a =10 #numeric
+		a<-10  #numeric
+		a='abc' #character
+
+
+-> operation/expression 
+		a =11
+		b =333
+		c <- a+b
+
+->Operator:
+	Arithmetic
+	Conditional
+	Increment/Decrement 
+
+		c = a**b  or  a^b
+		
+		c = a%%b		=1
+
+		c= 25/10		=2.5
+		c = a %/% b		=2
+-> Condition :
+	if(){
+
+	}else{
+
+
+	}
+
+	if (condition){
+
+	}else if(condition) {
+
+
+	}else{
+
+	}
+
+-> loop 
+	while : init , condition , increment/decrement 
+	for 
+	
+-> break	: terminate/break the iteration 
+   continue 	: skip the current cycle and then continue 
+
+-> nested loop 
+	
+-> vector  : collection of data or values 
+	   : multiple values can be stored on singel variable 
+	   : vector can be also considered as column 
+
+	
+	
+		
+
+
+

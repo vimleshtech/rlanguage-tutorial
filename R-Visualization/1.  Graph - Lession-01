@@ -1,0 +1,61 @@
+
+
+headcount<- c(21,34,40,5)
+region <- c('East','West','North','South')
+
+
+#Example # 1
+#pie(headcount) #basic pie char
+
+
+#Example #2 #with label and header 
+#labels :show text label / value
+#main   : title  
+pie(headcount, labels = region, main="Region wise headcount")
+
+
+
+#Example #3 with color
+rainbow(6)  #to generate code 
+rainbow(length(headcount))  
+
+pie(headcount,labels = region, col=rainbow(length(headcount)),
+    main="Region wise count")
+
+#or set own color
+
+pie(headcount,labels = region, col=c("#E53333","#11E87C","#CFDB65","#30350B"),
+    main="Region wise count")
+
+
+
+#Example # 4:  with %
+t =0
+for(x in headcount){
+  
+    t = t+x
+}
+
+pct <- (headcount/t)*100
+#paste : contcatenate the string or text value 
+lbls <- paste(region, pct) # add percents to labels 
+lbls <- paste(lbls,"%",sep="") # ad % to labels 
+
+pie(headcount,labels = lbls, col=rainbow(length(lbls)),
+    main="Region wise head count")
+
+
+########
+#install.packagte("plotrix") 
+
+library(plotrix)
+
+
+slices <- c(10, 12, 4, 16, 8) 
+lbls <- c("US", "UK", "Australia", "Germany", "France")
+
+pie3D(slices,labels=lbls,explode=0.1,
+      main="Pie Chart of Countries ")
+
+
+
